@@ -1,0 +1,28 @@
+
+Course notes:
+
+Git commands:
+=============
+
+$ git clone <URL>
+Clone the project to a folder with the project name. 
+Need to open another Git Bash inside the new folder.
+
+$ git add .
+Stage all the changes
+
+$ git commit -m "added new feature"
+Commit changes locally.
+
+$ git push
+Push work to GitHub.
+
+EditorConfig:
+==============
+Allows sharing the configuration of the code editor.
+
+Steps: 
+Add file .editorconfig in the root of the project.
+Installed plug-in EditorConfig for Visual Studio Code.
+
+
