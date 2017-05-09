@@ -62,4 +62,8 @@ lt --port 3000 valcarcel
 Automation:
 ===========
 Using npm script.
+npm start
+npm test
+npm run <scriptname>
+npm run <scriptname> -s
 
