@@ -38,6 +38,26 @@ npm install -g nsp
 nsp check
 
 
+Development Web Server:
+=======================
+Using express. Configured in srcServer.js.
+
+
+Sharing work with other people:
+===============================
+Options to deploy a demo version to a server.
+localtunnel(using it)
+ngrok
+now
+surge
+
+- Install localtunnel:
+npm install -g localtunnel
+- Start localtunnel:
+lt --port 3000
+- Start localtunnel with a sub-domain:
+lt --port 3000 valcarcel
+
 
 
 
