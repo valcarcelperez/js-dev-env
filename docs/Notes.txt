@@ -153,4 +153,13 @@ Setting ESLint in the build process is recommended:
 3. Part of continuous integration.
 
 
+Testing and Continuous Integration:
+===================================
+Decisions:
+Testing Framework: Using mocha.
+Assertion Library: Using chai.
+Helper Library: (for simulating the browser): Using jsdom.
+Where to run Tests: jsdom has an in-memory browser.
+Where to put the test files: In the same folder with the tested component (Alongside).
+When should Tests run: Unit Test should run automatically.
 
