@@ -67,3 +67,11 @@ npm test
 npm run <scriptname>
 npm run <scriptname> -s
 
+
+Transpiling:
+============
+Using Babel.
+
+Configurations:
+.babelrc: Not npm specific, easier to read since isolated.
+package.json: one less file in your project.
