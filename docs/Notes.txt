@@ -75,3 +75,55 @@ Using Babel.
 Configurations:
 .babelrc: Not npm specific, easier to read since isolated.
 package.json: one less file in your project.
+
+
+Bundling:
+=========
+Using Webpack.
+
+There are 5 Module Formats:
+
+1. Immediately invoked function expression (IIFE)
+2. Asynchronous Model Definition (AMD)
+3. CommonJS (CJS)
+4. Universal Module Definition (UMD)
+5.ES6 Modules.
+
+myGlobal:       -> myGlobal
+
+(function() {   -> IIFE
+  // my code
+})();
+
+define(['jq'], function(jq){});   -> AMD
+
+These above were the past.
+
+var jquery = require('jquery')    -> CommonJS
+
+import jQuery from 'jquery'       -> ES6 Modules
+
+WebPack:
+Much more than just JS
+- CSS
+- Image
+- Fonts
+- HTML
+
+Bundle splitting
+Hot module reloading
+Webpack 2 offers tree shaking (soon)
+
+webpack.config.dev.js
+Configuration for development. It simulates that files are om src folder but in this case it serves files from memory.
+
+Sourcemaps:
+Downloaded only if you open the developers tools.
+Configured in webpack.config.dev.js->devtool.
+We are using inline-source-map but there are more configurations to try.
+
+Debugging:
+Add debugger; and will see the original ES6 code in the browser.
+
+
+
