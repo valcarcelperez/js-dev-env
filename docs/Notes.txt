@@ -126,4 +126,31 @@ Debugging:
 Add debugger; and will see the original ES6 code in the browser.
 
 
+Linting:
+========
+Using ESLint. The most popular today.
+To support Typescript (at the time of recording the course) use TSLint.
+
+Decisions for setting up ESLint:
+1. Configuration: package.json.
+2. Rules to enable.
+3. What rules produce warnings and errors.
+4. Which plugins: we ues eslint-plugin-node for node. Enforce consistent style for a framework.
+5. Use a preset: A set of decisions already decided by someone else. Recommended to start.
+
+Issue:
+*** ESLint doesn't watch files.
+We are using the nmp package eslint-watch adds file watch.
+eslint-watch help linting test and build scripts too.
+
+*** ESLint doesn't support many experimental JavaScript features.
+At this point we are using only standardized JavaScript features.
+If support for experimental JavaScript features is needed use babel-eslint.
+
+Setting ESLint in the build process is recommended:
+1. All feedback in one place.
+2. Universal configuration.
+3. Part of continuous integration.
+
+
 
