@@ -176,3 +176,8 @@ www.appveyor.com
 HTTP Calls:
 ===========
 Using fetch centralizing HTTP calls.
+
+Sending a polyfill.
+To send the polyfill only to the browser that need it there is a service called polyfill.io.
+Added this to the index.html
+<script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch"></script>
