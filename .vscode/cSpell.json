@@ -19,7 +19,10 @@
         "devtool",
         "Sourcemaps",
         "Appveyor",
-        "polyfill"
+        "polyfill",
+        "randexp",
+        "Facker",
+        "mockapi"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.
