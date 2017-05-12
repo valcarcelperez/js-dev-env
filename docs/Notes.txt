@@ -173,3 +173,6 @@ Appveyor: Runs on Windows.
 www.appveyor.com
 
 
+HTTP Calls:
+===========
+Using fetch centralizing HTTP calls.
