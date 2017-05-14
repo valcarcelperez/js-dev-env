@@ -206,3 +206,5 @@ Project Structure:
 2. Consider organizing by features.
 3. Extract logic into "POJOs" (Plain Old JavaScript Objects). Pure logic. No framework-specific code.
 
+To see an example check out react-slingshot starter kit in GitHub.
+
