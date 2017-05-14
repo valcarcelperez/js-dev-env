@@ -198,3 +198,11 @@ Using:
 JSON Schema to declare the mock data. json-schema.org
 JSON Schema Facker
 
+
+Project Structure:
+==================
+1. JavaScript belongs in a .js file.
+   Generate dynamically configuration (or data) that JS can use. Do not generate JS dynamically.
+2. Consider organizing by features.
+3. Extract logic into "POJOs" (Plain Old JavaScript Objects). Pure logic. No framework-specific code.
+
