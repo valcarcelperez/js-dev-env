@@ -38,3 +38,6 @@ jspm_packages
 
 # Generated mock data
 src/api/db.json
+
+# Other
+dist
