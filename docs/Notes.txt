@@ -212,3 +212,8 @@ Production Build:
 =================
 distServer.js is for hosting te minified production build for local debugging purposes.
 Modified baseUrl.js to get the query string useMockApi to use the mock api.
+
+Dynamic HTML generation:
+using html-webpack-plugin.
+
+Configure minification of files.
