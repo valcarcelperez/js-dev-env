@@ -28,7 +28,8 @@
         "POJOs",
         "minified",
         "prebuild",
-        "postbuild"
+        "postbuild",
+        "contenthash"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.

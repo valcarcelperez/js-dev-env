@@ -221,3 +221,9 @@ Configure minification of files.
 Bundle Splitting:
 Speed initial page load.
 Avoid re-downloading all libraries.
+
+Cache Busting:
+Steps:
+1. Has bundle filename.
+2. Generate HTML dynamically.
+
