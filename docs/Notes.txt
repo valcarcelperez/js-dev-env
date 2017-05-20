@@ -217,3 +217,7 @@ Dynamic HTML generation:
 using html-webpack-plugin.
 
 Configure minification of files.
+
+Bundle Splitting:
+Speed initial page load.
+Avoid re-downloading all libraries.
